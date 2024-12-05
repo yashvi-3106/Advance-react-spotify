@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+}
+.logo{
+    height: 44px;
+    width: 156px;
+    margin-top: 10px;
+    margin-left: 18px
+}
+.icons{
+    height: 23px;
+    width: 23px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.text{
+    color: white;
+    margin-top: -22px;
+    margin-left: 55px;
+}
+.images{
+    margin-left: 1043px;
+    margin-top: 31px;
+}
+.container2{
+    display: grid;
+    /* border: 2px solid white; */
+    margin-left: 274px;
+    margin-top: -700px;
+    height: 600px;
+    background-color: rgb(32, 31, 31);
+}
+.arrows{
+    height: 30px;
+    width: 89px;
+    margin-top: -210px;
+    margin-left: 30px;
+}
+.Good{
+    font-size: 2rem;
+    color: white;
+    margin-top: -313px;
+    margin-left: 28px;
+}
+.container3{
+    display: grid;
+    margin-top: -427px;
+    margin-left: 305px;
+    width: 1160px;
+    height: 200px;
+    column-gap: 45px;
+    grid-template-columns: 261px  261px 261px 261px;
+
+}
+.pic{
+    height: 65px;
+    width: 65px;
+}
+.child{
+    /* border: 2px solid white; */
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 65px;
+    width: 240px;
+    background-color: rgb(58, 57, 57);
+}
+.text2{
+    color: white;
+    margin-left: 90px;
+    margin-top: -45px;
+}
+.container4{
+    /* border: 2px solid white; */
+    height: 316px;
+    width: 1171px;
+    margin-top: 0px;
+    margin-left: 304px;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 165px 165px 165px 165px 165px 165px;
+}
+.child2{
+    height: 200px;
+    /* border: 2px solid white; */
+}
+.Shows{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 304px;
+}
+.images3{
+    height: 162px;
+    width: 162px;
+}
+.text3{
+    color: white;
+    font-size: 18px;
+    margin-top: 2px;
+}
+.container5{
+    /* border: 2px solid white; */
+    height: 100px;
+    margin-top: -70px;
+    background-color: rgb(37, 37, 36);
+}
+.images4{
+    height: 100px;
+    width: 100px;
+}
+.images5{
+    height: 66px;
+    margin-left: 306px;
+    margin-top: -102px;
+}
+.images6{
+    height: 36px;
+    margin-left: 120px;
+    margin-top: -92px;
+    margin-bottom: 24px;
+}
+
+/* .aditya{
+    margin-left: 18px;
+
+} */
+.item{
+    margin-top: -15px;
+    margin-left: 18px;
+}
+
+.abc{
+    margin-top: -15px;
+    margin-left: 18px;
+}
+.new1{
+    margin-left: 18px;
+    margin-left: 18px;
+}
+.new2{
+    margin-top: -15px;
+    margin-left: 18px;
+}
+
+.new3{
+    margin-top: -15px
+    ;margin-left: 18px;
+}
+
+.fav{
+    color: white;
+    margin-left: 23px;
+    margin-top: 33px;
+}
+.daily{
+    color: white;
+    margin-left: 23px;
+}
+.discovery{
+    color: white
+    ;margin-left: 23px;
+}
+.malayalam{
+    color: white;
+    margin-left: 23px;
+}
+.dance{
+    color: white;
+    margin-left: 23px;
+}
+.edm{
+    color: white;
+    margin-left: 23px;
+}
+.install{
+    color: white;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.instname{
+    color: white;
+    margin-left: 66px;
+    margin-top: -24px;
+}
+
+.fix{
+    height: 20px;
+    width: 20px;
+     margin-left: 118px;
+     margin-top: -10px;
+}
+
+.dream{
+    color: white;
+    margin-left: 120px;
+    margin-top: -70px;
+}
+
