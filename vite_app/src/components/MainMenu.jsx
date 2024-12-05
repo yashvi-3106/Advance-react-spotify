@@ -2,13 +2,28 @@ import './MainMenu.css'
 
 function MainMenu() {
     
-         const Data = [
+        //  const Data = [
+        //        {id:1 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Liked.png?raw=true", title:'Liked Songs'},
+        //        {id:2 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image4.png?raw=true", title:'Neffex Playlist'},
+        //        {id:3 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image3.png?raw=true", title:'K/DA'},
+        //        {id:4 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image3.png?raw=true", title:'Liked Songs'},
+        //        {id:5 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image2.png?raw=true", title:"Dance/ Electronix mix"}
+        //  ]
+
+                 const Data = [
                {id:1 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Liked.png?raw=true", title:'Liked Songs'},
                {id:2 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image4.png?raw=true", title:'Neffex Playlist'},
                {id:3 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image3.png?raw=true", title:'K/DA'},
                {id:4 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image3.png?raw=true", title:'Liked Songs'},
-               {id:5 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image2.png?raw=true", title:"Dance/ Electronix mix"}
+               {id:5 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image2.png?raw=true", title:"Dance/ Electronix mix"},
+               {id:6 , img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image2.png?raw=true", title:"Dance/ Electronix mix"}
          ]
+
+        const evenId = Data.filter((recent) => recent.id%2==0)
+        
+
+
+
 
          const result = [
           {id:1,img:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true",title:'Weekly Motivatio...'},
@@ -60,7 +75,8 @@ function MainMenu() {
             alt="" />
           <p className="text2">Dance/ Electronix mix</p>
         </div> */}
-
+            {/* </div> */}
+{/* 
        {Data.map((detail) =>
        (
          <div className='child' key={detail.id}>
@@ -68,7 +84,19 @@ function MainMenu() {
           <p className='text2'>{detail.title}</p>
          </div>
        )
+      )} */}
+
+      
+       {evenId.map((detail) =>
+       (
+         <div className='child' key={detail.id}>
+          <img className='pic' src={detail.img}/>
+          <p className='text2'>{detail.title}</p>
+         </div>
+       )
       )}
+
+
 
 
 
